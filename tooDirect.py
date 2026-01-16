@@ -62,7 +62,7 @@ def process_file():
 
 
 if __name__ == "__main__":
-    search_term = 'asthma' ## default
+    search_term = 'asthma'  # default
     if len(sys.argv) > 1:
         csv_file = sys.argv[1]
         print(f"Input CSV: {csv_file}")
@@ -70,7 +70,7 @@ if __name__ == "__main__":
             search_term = sys.argv[2]
             print(f"Search term: {search_term}")
             if search_term == 'None':
-                search_term = None;
+                search_term = None
         process_file()
     else:
         print("No CSV provided.")
