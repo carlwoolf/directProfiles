@@ -1,11 +1,11 @@
 export myTerm=asthma
 
-curl -L -o bootstrap.xml "http://connects.catalyst.harvard.edu/profiles/DIRECT.xml"
-curl -L -o asthmaFromGuess.xml   "http://connects.catalyst.harvard.edu/profiles/DirectService.asp?Request=IncomingCount&SearchPhrase=$myTerm"
+curl -L -o outputFiles/bootstrap.xml "http://connects.catalyst.harvard.edu/profiles/DIRECT.xml"
+curl -L -o outputFiles/asthmaFromGuess.xml   "http://connects.catalyst.harvard.edu/profiles/DirectService.asp?Request=IncomingCount&SearchPhrase=$myTerm"
 
 export queryUrlBS=`cat bootstrap.xml | grep "aggregate-query" | sed 's/.*http/http/;s/<.*//;s/&amp\;/\&/'`$myTerm
 echo queryUrlBS from bootstrap is $queryUrlBS
-curl -L -o asthmaFromBS.xml "$queryUrlBS"
+curl -L -o outputFiles/asthmaFromBS.xml "$queryUrlBS"
 
 export countBS=`cat asthmaFromBS.xml | grep "aggregation-result" | sed 's/.*<count>//;s/<.*//'`
 if (( $countBS >= 0 )); then

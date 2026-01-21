@@ -1,18 +1,26 @@
-DirectXml,Institution,Guess
-"http://profiles.catalyst.harvard.edu/DIRECT/BU/DIRECT.xml",                            "Boston University","http://profiles-ctsi.bu.edu/DirectService.aspx?Request=IncomingCount&SearchPhrase="
-"http://connects.catalyst.harvard.edu/profiles/DIRECT.xml",                             "Harvard University","http://connects.catalyst.harvard.edu/profiles/DirectService.asp?Request=IncomingCount&SearchPhrase="
-"http://latticegrid.feinberg.northwestern.edu/federation/DIRECT.xml",                   "Northwestern University Feinberg School of Medicine","http://latticegrid.feinberg.northwestern.edu/direct_search/"
-"http://profiles.psu.edu/Profiles/direct.xml",                                          "Pennsylvania State University","http://profiles.psu.edu/profiles/DIRECT/Modules/DirectSearch/DirectService.aspx?Request=IncomingCount&SearchPhrase="
-"http://profiles.catalyst.harvard.edu/DIRECT/RTRN/DIRECT.xml",                          "RTRN (18 RCMI Institutions)","http://t1t2.rtrn.net/profilesweb/DirectService.aspx?Request=IncomingCount&SearchPhrase="
-"http://profiles.healthsciencessc.org/DIRECT.XML",                                      "South Carolina (HSSC/SCTR)","http://profiles.healthsciencessc.org/DirectService.aspx?Request=IncomingCount&SearchPhrase="
-"http://profiles.ucsf.edu/DIRECT.xml",                                                  "University of California, San Francisco","http://profiles.ucsf.edu/DirectService.aspx?Request=IncomingCount&SearchPhrase="
-"http://profiles.catalyst.harvard.edu/DIRECT/UConn/DIRECT.xml",                         "University of Connecticut Health Center","http://profiles.uconn.edu/DirectService.aspx?Request=IncomingCount&SearchPhrase="
-"http://profiles.umassmed.edu/profiles/Direct.xml",                                     "University of Massachusetts Medical School","http://profiles.umassmed.edu/profiles/DirectService.aspx?Request=IncomingCount&SearchPhrase="
-"http://profiles.cdrewu.edu/profiles/Direct/Direct.xml",                                "Charles R Drew University of Medicine and Science","http://profiles.cdrewu.edu/profiles/DIRECT/Modules/DirectSearch/DirectService.aspx?Request=IncomingCount&SearchPhrase="
-"http://profiles.viictr.org/direct.xml",                                                "Baylor College of Medicine","http://profiles.viictr.org/DirectService.aspx?Request=IncomingCount&SearchPhrase="
-"https://uams-triprofiles.uams.edu/profiles/DIRECT/Modules/DirectSearch/Direct.xml",    "University of Arkansas for Medical Sciences","https://uams-triprofiles.uams.edu/profiles/DIRECT/Modules/DirectSearch/DirectService.aspx?Request=IncomingCount&SearchPhrase="
-"http://profiles.uchicago.edu/DIRECT/DIRECT.xml",                                       "University of Chicago","https://profiles.uchicago.edu/profiles/DIRECT/Modules/DirectSearch/DirectService.aspx?Request=IncomingCount&SearchPhrase="
-"https://profiles.ucdenver.edu/direct.xml",                                             "University of Colorado Profiles","https://profiles.ucdenver.edu/DIRECT/Modules/DirectSearch/DirectService.aspx?Request=IncomingCount&SearchPhrase="
-"http://www.urmc.rochester.edu/profiles/DIRECT/direct.xml",                             "University of Rochester Medical Center","http://www.urmc.rochester.edu/profiles/DIRECT/Modules/DirectSearch/DirectService.aspx?Request=IncomingCount&SearchPhrase="
-"http://profilesv2.sc-ctsi.org/profiles/direct.xml",                                    "University of Southern California","http://profilesv2.sc-ctsi.org/profiles/DirectService.aspx?Request=IncomingCount&SearchPhrase="
-"http://profiles.tsi.wakehealth.edu/direct/direct.xml",                                 "Wake Forest Baptist Medical Center","http://profiles.tsi.wakehealth.edu/DIRECT/Modules/DirectSearch/DirectService.aspx?Request=IncomingCount&SearchPhrase="
+BootstrapXml,Institution,Guess,ScrapeRegexM,ScrapeRegexE
+http://connects.catalyst.harvard.edu/profiles/DIRECT.xml,           "Harvard University",                                       http://connects.catalyst.harvard.edu/profiles/DirectService.asp?Request=IncomingCount&SearchPhrase=
+http://profiles.catalyst.harvard.edu/DIRECT/BU/DIRECT.xml,          "Boston University",                                        http://profiles-ctsi.bu.edu/DirectService.aspx?Request=IncomingCount&SearchPhrase=
+http://latticegrid.feinberg.northwestern.edu/federation/DIRECT.xml, "Northwestern University Feinberg School of Medicine",      http://latticegrid.feinberg.northwestern.edu/direct_search/
+http://profiles.psu.edu/Profiles/direct.xml,                        "Pennsylvania State University",                            http://profiles.psu.edu/profiles/DIRECT/Modules/DirectSearch/DirectService.aspx?Request=IncomingCount&SearchPhrase=
+http://profiles.catalyst.harvard.edu/DIRECT/RTRN/DIRECT.xml,        "RTRN (18 RCMI Institutions)",                              http://t1t2.rtrn.net/profilesweb/DirectService.aspx?Request=IncomingCount&SearchPhrase=
+http://profiles.healthsciencessc.org/DIRECT.XML,                    "South Carolina (HSSC/SCTR)",                               http://profiles.healthsciencessc.org/DirectService.aspx?Request=IncomingCount&SearchPhrase=
+http://profiles.ucsf.edu/DIRECT.xml,                                "University of California, San Francisco",                  http://profiles.ucsf.edu/DirectService.aspx?Request=IncomingCount&SearchPhrase=
+http://profiles.catalyst.harvard.edu/DIRECT/UConn/DIRECT.xml,       "University of Connecticut Health Center",                  http://profiles.uconn.edu/DirectService.aspx?Request=IncomingCount&SearchPhrase=
+http://profiles.umassmed.edu/profiles/Direct.xml,                   "University of Massachusetts Medical School",               http://profiles.umassmed.edu/profiles/DirectService.aspx?Request=IncomingCount&SearchPhrase=
+http://profiles.cdrewu.edu/profiles/Direct/Direct.xml,              "Charles R Drew University of Medicine and Science",        http://profiles.cdrewu.edu/profiles/DIRECT/Modules/DirectSearch/DirectService.aspx?Request=IncomingCount&SearchPhrase=
+http://profiles.viictr.org/direct.xml,                              "Baylor College of Medicine",                               http://profiles.viictr.org/DirectService.aspx?Request=IncomingCount&SearchPhrase=
+https://uams-triprofiles.uams.edu/profiles/DIRECT/Modules/DirectSearch/Direct.xml,"University of Arkansas for Medical Sciences",https://uams-triprofiles.uams.edu/profiles/DIRECT/Modules/DirectSearch/DirectService.aspx?Request=IncomingCount&SearchPhrase=
+http://profiles.uchicago.edu/DIRECT/DIRECT.xml,                     "University of Chicago",                                    https://profiles.uchicago.edu/profiles/DIRECT/Modules/DirectSearch/DirectService.aspx?Request=IncomingCount&SearchPhrase=
+https://profiles.ucdenver.edu/direct.xml,                           "University of Colorado Profiles",                          https://profiles.ucdenver.edu/DIRECT/Modules/DirectSearch/DirectService.aspx?Request=IncomingCount&SearchPhrase=
+http://www.urmc.rochester.edu/profiles/DIRECT/direct.xml,           "University of Rochester Medical Center",                   http://www.urmc.rochester.edu/profiles/DIRECT/Modules/DirectSearch/DirectService.aspx?Request=IncomingCount&SearchPhrase=
+http://profilesv2.sc-ctsi.org/profiles/direct.xml,                  "University of Southern California",                        http://profilesv2.sc-ctsi.org/profiles/DirectService.aspx?Request=IncomingCount&SearchPhrase=
+http://profiles.tsi.wakehealth.edu/direct/direct.xml,               "Wake Forest Baptist Medical Center",                       http://profiles.tsi.wakehealth.edu/DIRECT/Modules/DirectSearch/DirectService.aspx?Request=IncomingCount&SearchPhrase=
+
+https://profiles.rush.edu/direct/direct.xml,                        "Rush University",                                          https://profiles.rush.edu/DirectService.aspx?Request=IncomingCount&SearchPhrase=
+https://researchdirectory.uc.edu/Search,                            "University of Cincinnati",         https://researchdirectory.uc.edu/Search?#c=ExpertsByKeyword&q=,                       (?s)of .*?Results</span>,   (?s)of (\\d+) Results</span>
+https://uicollaboratory.uic.edu/search,                             "University of Illinois Chicago",   https://uicollaboratory.uic.edu/search?v=,                                            (?s).*paginationTotal.*?><, (?s).*paginationTotal.*?><(\\d+)
+
+
+
+
